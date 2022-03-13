@@ -5,26 +5,17 @@
  * Return: 0 for success
  */
 
+
 int main(void)
 {
-	char letter = 'a';
+	int ch;
 
-	while (letter <= 'z')
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if (letter == "q')
-		{
-			letter++;
-		}
-
-		else if (letter =='e')
-		{
-			letter++;
-		}
-		else
-		{
-		   putchar(letter);
-	letter++;
+		if (ch != 'e' && ch != 'q')
+			putchar(ch);
 	}
-	putchar('\n')
-	 return (0);
+	putchar('\n');
+	return (0);
 }
+
