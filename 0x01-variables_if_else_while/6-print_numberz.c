@@ -2,7 +2,7 @@
 
 /**
  * main -Print single digit numbers of base 10 using putchar only
- * return: 0 for success
+ * Return: 0 for success
  */
 
 
