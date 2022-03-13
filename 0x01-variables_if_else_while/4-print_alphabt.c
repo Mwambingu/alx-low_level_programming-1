@@ -2,7 +2,7 @@
 
 /**
  * main -Prints alphabet in lowercase, excluding e and q
- * Return :0 for success
+ * Return: 0 for success
  */
 
 int main(void)
