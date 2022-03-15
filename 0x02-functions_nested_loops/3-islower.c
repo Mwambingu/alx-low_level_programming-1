@@ -7,12 +7,6 @@
 
 int _islower(int c)
 {
-if islower(c)
-{
-return (1);
+return (c >= 97 && c <= 122);
 }
-else
-{
-return (0);
-}
-}
+
