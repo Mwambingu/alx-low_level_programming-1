@@ -6,26 +6,27 @@
 
 void times_table(void)
 {
-int a, b, result;
+int num1, num2, ans;
 
-for (a = 0; a <= 9; a++)
+for (num1 = 0; num1 <= 9; num1++)
 {
 _putchar('0')
 
-for (b = 0; b <= 9; b++)
+for (num2 = 1; num2 <= 9; num2++)
 {
 _putchar(',');
 _putchar(' ');
 
-result = a * b;
+ans = num1 * num2;
 
-if (result <= 10)
+if (ans <= 9)
 _putchar(' ');
 
 else
-_putchar((result / 10) +  '0');
+_putchar((ans / 10) +  '0');
 
-_putchar((result % 10) + '0');
+
+_putchar((ans % 10) + '0');
 
 }
 _putchar('\n');
