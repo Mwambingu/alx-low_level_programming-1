@@ -6,14 +6,20 @@
  * Return: 0 for success
  */
 
+
 void print_alphabet_x10(void)
 {
-	char ch;
-	int i;
 
-	for (i = 97; i < 123; i++)
+	int x, a;
+	int lower_x;
+
+	for (a = 0; a <= 9; a++)
 	{
-	_putchar(i);
+		for (x = 'A'; x <= 'Z'; x++)
+		{
+			lower_x = tolower(x);
+			_putchar(lower_x);
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
