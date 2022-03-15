@@ -23,7 +23,7 @@ if (result <= 10)
 _putchar(' ');
 
 else
-((result / 10) +  '0');
+_putchar((result / 10) +  '0');
 
 _putchar((result % 10) + '0');
 
