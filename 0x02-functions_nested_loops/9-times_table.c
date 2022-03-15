@@ -10,25 +10,24 @@ int a, b, result;
 
 for (a = 0; a <= 9; a++)
 {
+_putchar('0')
+
 for (b = 0; b <= 9; b++)
-{
-result = a * b;
-if (b != 0)
 {
 _putchar(',');
 _putchar(' ');
-}
-if (result >= 10)
-{
-_putchar((result / 10) + '0');
-_putchar((result % 10) + '0');
-}
-else if ((result < 10) && (b != 0))
-{
+
+result = a * b;
+
+if (result <= 10)
 _putchar(' ');
-_putchar((result % 10) + '0');
-															}
+
 else
+((result / 10) +  '0');
+
 _putchar((result % 10) + '0');
+
 }
 _putchar('\n');
+}
+}
